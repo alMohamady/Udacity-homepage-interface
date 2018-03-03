@@ -1,0 +1,21 @@
+boady{
+   margin: 0;
+}
+#header{
+   width: 100%;
+   min-height: 50px;
+   background: #fff;
+   box-shadow: 0 0 35px #e6e6e6;
+}
+.container{
+   max-width: 1170px;
+   margin: 0 auto;
+   background-color: #377fd0;
+   height: 50px;
+}
+#logo{
+   float: left;
+}
+#navbar{
+    float:  right;
+}
