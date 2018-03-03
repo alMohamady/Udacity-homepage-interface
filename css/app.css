@@ -1,7 +1,9 @@
-boady{
+body{
    margin: 0;
+   font-family: 'Cairo', 'Open Sans' , sans-serif;
 }
 #header{
+   margin: 0;
    width: 100%;
    min-height: 50px;
    background: #fff;
@@ -10,7 +12,7 @@ boady{
 .container{
    max-width: 1170px;
    margin: 0 auto;
-   background-color: #377fd0;
+   /*background-color: #377fd0;*/
    height: 50px;
 }
 #logo{
@@ -22,4 +24,20 @@ boady{
 #logo a{
     display: block;
     padding: 12px 15px 0;
+}
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#navbar li{
+    float: left;
+}
+#navbar li a{
+    display: inline-block;
+    padding: 17px 15px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
 }
