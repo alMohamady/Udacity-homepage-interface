@@ -14,8 +14,12 @@ boady{
    height: 50px;
 }
 #logo{
-   float: left;
+   float: right;
 }
 #navbar{
-    float:  right;
+    float: left;
+}
+#logo a{
+    display: block;
+    padding: 12px 15px 0;
 }
