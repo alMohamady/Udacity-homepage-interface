@@ -219,3 +219,56 @@ body{
         flex-direction: row;
     }
 }
+.fag h2{
+    margin-top: 0px;
+    font-size: 25px;
+}
+.fag .container{
+    text-align: right;
+}
+.according{
+    width: 100%;
+    position: relative;
+    margin-bottom: 5px;
+}
+.according label{
+    display: block;
+    padding: 10px 30px;
+    background-color: #fafafa;
+    border: 1px solid #eee;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+}
+.according .according-content{
+    border: 1px solid #eee;
+    border-top: none;
+    overflow: hidden;
+    display: none;
+}
+.according p{
+    max-width: 100%;
+    text-align: right;
+    margin: 15px;
+    font-size: 14px;
+    color: #333;
+}
+.according input[type=checkbox]{
+    position: absolute;
+    display: none;
+}
+.according input[type=checkbox]:checked ~ .according-content{
+    display: block;
+}
+.according label::after {
+    content: "+";
+    position: absolute;
+    top: 9px;
+    right: 15px;
+    display: block;
+    width: 10px;
+    height: 10px;
+  }
+  .according input[type=checkbox]:checked ~ label::after {
+    content: "-";
+  }
