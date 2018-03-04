@@ -168,7 +168,7 @@ body{
 }
 .track .container{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
 }
 .track .track-desc{
    flex: 1;
@@ -197,4 +197,25 @@ body{
 }
 .track-desc p{
     font-size: 15px;
+}
+.section > div:nth-of-type(even){
+     background: #fff;
+}
+.section > div:nth-of-type(even) h2,
+.section > div:nth-of-type(even) p
+{
+	color: #333;
+}
+.section > div:nth-of-type(even) .container{
+    flex-direction: column;
+}
+@media(min-width:769px){
+    
+    .track .container{
+        flex-direction: row-reverse;
+    }
+   
+    .section > div:nth-of-type(even) .container{
+        flex-direction: row;
+    }
 }
