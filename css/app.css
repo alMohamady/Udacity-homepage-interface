@@ -83,4 +83,33 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.banner h1{
+    color: #fff;
+    font-size: 42px;
+    margin: 165px auto 5px;
+}
+.banner h3{
+    color: #fff;
+    font-size: 18px;
+    margin-top: 0px;
+}
+.banner .join-us{
+    display: inline-block;
+    color: #fff;
+    font-size: 25px;
+    background: #11b7e6;
+    border: 1px solid #122b40;
+    text-decoration: none;
+    padding: 5px 30px;
+    border-radius: 10px;
+    direction: rtl;
 }
