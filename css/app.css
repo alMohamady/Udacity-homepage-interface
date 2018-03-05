@@ -268,7 +268,42 @@ body{
     display: block;
     width: 10px;
     height: 10px;
-  }
-  .according input[type=checkbox]:checked ~ label::after {
+}
+.according input[type=checkbox]:checked ~ label::after {
     content: "-";
-  }
+}
+#main-footer{
+   padding: 100px 0;
+   text-align: center;
+   background: #1c1c1c url(../images/bg.png) center 75% no-repeat;
+   color: #fff;
+   direction: rtl;
+}
+#main-footer .underline::after{
+      width: 30px;
+}
+#main-footer p{
+    color: #bbb;
+    font-size: 14px;
+    margin: 6px 0;
+}
+#main-footer p a{
+    color: #bbb;
+    text-decoration: none;
+}
+#sub-footer{
+	padding: 2px 0;
+	background: #131313;
+	color: #ccc;
+	text-align: center;
+    border-top: 1px solid #323232;
+    direction: rtl;
+}
+#sub-footer p{
+	padding: 0;
+	font-size: 14px;
+}
+#sub-footer p a{
+	color: #bbb;
+	text-decoration: none;
+}
